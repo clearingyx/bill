@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+    <!--导入属性配置 -->
+    <properties resource="generator.properties"></properties>
+
+    <!-- 这里填个数据库连接器的jar包位置-->
+    <classPathEntry location="${jar-path}"/>
+
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <!-- 生成的Java文件的编码 -->
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin"/>
+
+        <!-- 注释 -->
+        <commentGenerator type="org.mybatis.generator.internal.HairyCommentGenerator">
+            <property name="javaFileEncoding" value="UTF-8"/>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="false" />
+            <property name="suppressDate" value="true" />
+        </commentGenerator>
+
+        <!-- 驱动 -->
+        <jdbcConnection driverClass="${driverClassName}"
+                        connectionURL="${url}"
+                        userId="${username}" password="${password}">
+        </jdbcConnection>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="com.common.model.auto"
+                            targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="mybatis.mapper.auto"
+                         targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.common.dao.auto"
+                             targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <!--<table schema="" tableName="sms" domainObjectName="Sms"></table>-->
+        <!--<table schema="" tableName="admin" domainObjectName="Admin"></table>-->
+        <!--<table schema="" tableName="person" domainObjectName="Person"></table>-->
+        <!--<table schema="" tableName="browser" domainObjectName="Browser"></table>-->
+        <!--<table schema="" tableName="collection" domainObjectName="Collection"></table>-->
+        <!--<table schema="" tableName="log" domainObjectName="Log"></table>-->
+        <!--<table schema="" tableName="news" domainObjectName="News"></table>-->
+        <!--<table schema="" tableName="person_question" domainObjectName="PersonQuestion"></table>-->
+        <table schema="" tableName="random_question" domainObjectName="RandomQuestion"></table>
+        <!--<table schema="" tableName="share" domainObjectName="Share"></table>-->
+        <!--<table schema="" tableName="random_question_record" domainObjectName="RandomQuestionRecord"></table>-->
+        <!--<table schema="" tableName="lasting_resource" domainObjectName="LastingResource"></table>-->
+        <!--<table schema="" tableName="lasting_image_text_resource" domainObjectName="LastingImageTextResource"></table>-->
+        <!--<table schema="" tableName="lasting_qrcode" domainObjectName="LastingQrcode"></table>-->
+        <!--<table schema="" tableName="aboutme" domainObjectName="Aboutme"></table>-->
+        <!--<table schema="" tableName="pc_home" domainObjectName="PcHome"></table>-->
+        <!--<table schema="" tableName="pc_knowledge" domainObjectName="PcKnowledge"></table>-->
+        <!--<table schema="" tableName="pc_knowledge_list" domainObjectName="PcKnowledgeList"></table>-->
+        <!--<table schema="" tableName="pc_news" domainObjectName="PcNews"></table>-->
+        <!--<table schema="" tableName="pc_project_brief" domainObjectName="PcProjectBrief"></table>-->
+        <!--<table schema="" tableName="pc_risk" domainObjectName="PcRisk"></table>-->
+    </context>
+</generatorConfiguration>
