@@ -8,9 +8,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.util.ResourceBundle;
 
 /**
@@ -43,10 +43,16 @@ public class WeixinController extends WeixinControllerSupport {
         return this.aes_key;
     }
 
-    @Override
+//    @Override
+//    @RequestMapping("weixin")
+//    public void bindServer(HttpServletRequest request, HttpServletResponse response) {
+//        super.bindServer(request, response);
+//    }
+
     @RequestMapping("weixin")
-    public void bindServer(HttpServletRequest request, HttpServletResponse response) {
-        super.bindServer(request, response);
+    @ResponseBody
+    public Object wexin(HttpServletRequest request) {
+        return processRequest(request);
     }
 
     //重写父类方法，处理对应的微信消息
