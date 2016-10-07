@@ -2,6 +2,7 @@ package com.wechat;
 
 import com.github.sd4324530.fastweixin.message.BaseMsg;
 import com.github.sd4324530.fastweixin.message.TextMsg;
+import com.github.sd4324530.fastweixin.message.req.BaseEvent;
 import com.github.sd4324530.fastweixin.message.req.TextReqMsg;
 import com.github.sd4324530.fastweixin.servlet.WeixinControllerSupport;
 import org.slf4j.Logger;
@@ -40,9 +41,15 @@ public class WeixinController extends WeixinControllerSupport {
     //不再强制重写，有加密需要时自行重写该方法
     @Override
     protected String getAESKey() {
-        return this.aes_key;
+        //return this.aes_key;
+        return null;
     }
 
+    /**
+     * 绑定服务器的时候需要
+     * @param request
+     * @return
+     */
 //    @Override
 //    @RequestMapping("weixin")
 //    public void bindServer(HttpServletRequest request, HttpServletResponse response) {
@@ -51,15 +58,18 @@ public class WeixinController extends WeixinControllerSupport {
 
     @RequestMapping("weixin")
     @ResponseBody
-    public Object wexin(HttpServletRequest request) {
+    public Object weixin(HttpServletRequest request) {
         return processRequest(request);
     }
 
     //重写父类方法，处理对应的微信消息
     @Override
     protected BaseMsg handleTextMsg(TextReqMsg msg) {
-        String content = msg.getContent();
-        LOG.debug("用户发送到服务器的内容:{}", content);
-        return new TextMsg("服务器回复用户消息!");
+        return new TextMsg("点击报账：http://zp.tunnel.phpor.me/bill.do?openId="+msg.getToUserName());
+    }
+
+    @Override
+    protected BaseMsg handleSubscribe(BaseEvent event) {
+        return new TextMsg("点击报账：http://zp.tunnel.phpor.me/bill.do?openId="+event.getFromUserName());
     }
 }
