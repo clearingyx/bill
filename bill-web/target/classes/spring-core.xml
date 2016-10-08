@@ -20,29 +20,39 @@
     </bean>
 
     <!-- config jackson 不输出Null数据 -->
+    <!--<mvc:annotation-driven>-->
+        <!--<mvc:message-converters register-defaults="true">-->
+            <!--&lt;!&ndash; 将StringHttpMessageConverter的默认编码设为UTF-8 &ndash;&gt;-->
+            <!--<bean class="org.springframework.http.converter.StringHttpMessageConverter">-->
+                <!--<constructor-arg value="UTF-8"/>-->
+            <!--</bean>-->
+            <!--&lt;!&ndash; 将Jackson2HttpMessageConverter的默认格式化输出设为true &ndash;&gt;-->
+            <!--<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">-->
+                <!--<property name="objectMapper">-->
+                    <!--<bean class="com.fasterxml.jackson.databind.ObjectMapper">-->
+                        <!--<property name="serializationInclusion">-->
+                            <!--<value type="com.fasterxml.jackson.annotation.JsonInclude.Include">NON_NULL</value>-->
+                        <!--</property>-->
+                    <!--</bean>-->
+                <!--</property>-->
+            <!--</bean>-->
+        <!--</mvc:message-converters>-->
+    <!--</mvc:annotation-driven>-->
+
+    <!-- 不输出Null数据 -->
     <mvc:annotation-driven>
         <mvc:message-converters register-defaults="true">
-            <!-- 将StringHttpMessageConverter的默认编码设为UTF-8 -->
-            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
-                <constructor-arg value="UTF-8"/>
-            </bean>
-            <!-- 将Jackson2HttpMessageConverter的默认格式化输出设为true -->
-            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
-                <property name="objectMapper">
-                    <bean class="com.fasterxml.jackson.databind.ObjectMapper">
-                        <property name="serializationInclusion">
-                            <value type="com.fasterxml.jackson.annotation.JsonInclude.Include">NON_NULL</value>
-                        </property>
-                    </bean>
-                </property>
+            <bean
+                    class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+                <property name="supportedMediaTypes" value="application/json" />
             </bean>
         </mvc:message-converters>
     </mvc:annotation-driven>
 
-    <!-- location中的内容可以写多个地址，比如可以这么写location="/,/**"前一个表示在根目录查找 -->
+
     <mvc:default-servlet-handler />
-    <!--<mvc:resources mapping="/images/**" location="/WEB-INF/images/" />-->
-    <mvc:resources mapping="/*.xml" location="/WEB-INF/" />
+    <!--<mvc:resources mapping="/css/**" location="/WEB-INF/css/" />-->
+    <!--<mvc:resources mapping="/js/**" location="/WEB-INF/js/" />-->
 
     <!-- 个人拦截器，暂时用不到 -->
     <!--<mvc:interceptors>
