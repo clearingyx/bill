@@ -78,13 +78,14 @@ public class WeixinController extends WeixinControllerSupport {
     //重写父类方法，处理对应的微信消息
     @Override
     protected BaseMsg handleTextMsg(TextReqMsg msg) {
-        return new TextMsg(host + "/bill/index.do?openId="+msg.getFromUserName());
+        return new TextMsg(host + "/base/index.do?openId="+msg.getFromUserName());
     }
 
     @Override
     protected BaseMsg handleSubscribe(BaseEvent event) {
         Person person = personMapper.selectByPrimaryKey(event.getFromUserName());
         if(person == null){
+            person = new Person();
             person.setOpenId(event.getFromUserName());
             person.setCreateDate(new Date(event.getCreateTime()));
             int temp = personMapper.insertSelective(person);
@@ -98,7 +99,7 @@ public class WeixinController extends WeixinControllerSupport {
                 LOG.error("已经取消关注用户重新关注修改数据库失败！");
             }
         }
-        return new TextMsg(host + "/bill/index.do?openId="+event.getFromUserName());
+        return new TextMsg(host + "/base/index.do?openId="+event.getFromUserName());
     }
 
     @Override

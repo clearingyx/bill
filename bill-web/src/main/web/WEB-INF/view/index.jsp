@@ -39,7 +39,7 @@
             layer.open({
                 type: 2
             })
-            location.href = "${host}/bill/house.do?openId=${openId}";
+            location.href = "${host}/house/house.do?openId=${openId}";
         });
     })
 </script>

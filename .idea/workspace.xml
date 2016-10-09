@@ -2,143 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b7b3c81-42bf-45cb-b10b-7e017e4d71d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/auto/BillMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/auto/CateMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/auto/HouseMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/auto/PersonMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/auto/RefundMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/auto/StagesMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/biz/PersonBizMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/Bill.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/BillExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/BillExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/BillExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/BillExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/Cate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/CateExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/CateExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/CateExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/CateExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/House.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/HouseExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/HouseExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/HouseExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/HouseExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/Person.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/PersonExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/PersonExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/PersonExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/PersonExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/Refund.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/RefundExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/RefundExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/RefundExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/RefundExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/Stages.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/StagesExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/StagesExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/StagesExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/StagesExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/BeanUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/ConnectUtil$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/ConnectUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/DateUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/DateUtils$DTFormat.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/DateUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/JSONUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/MD5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/SHA1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/UUIDHashCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/web/demo/TestController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/web/web/WebController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/web/wechat/WeixinController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/test/test.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/test/test1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/asm-4.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/aspectjweaver-1.6.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/cglib-3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/commons-codec-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/commons-httpclient-3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/commons-io-2.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/commons-lang3-3.3.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/druid-1.0.18.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/fastjson-1.2.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/fastweixin-1.3.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/httpclient-4.5.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/httpcore-4.4.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/httpmime-4.5.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/jcl-over-slf4j-1.7.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/jconsole.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/jstl-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/logback-classic-1.1.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/logback-core-1.1.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/logback-ext-spring-0.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/mybatis-3.2.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/mybatis-spring-1.2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.34.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/slf4j-api-1.7.21.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-aop-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-beans-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-context-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-context-support-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-core-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-expression-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-jdbc-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-tx-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-web-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-webmvc-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/standard-1.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/tools.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/config/dbconfig.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/config/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/config/spring-core.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/config/spring-database.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/dbconfig.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/generator.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/generatorConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/auto/BillMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/auto/CateMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/auto/HouseMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/auto/PersonMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/auto/RefundMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/auto/StagesMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/biz/PersonBizMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/spring-core.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/spring-database.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/wx.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/view/bill.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/view/bill_person.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/view/house.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/view/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/css/test.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/js/jquery-1.11.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/plugin/layer_mobile/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/plugin/layer_mobile/need/layer.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/bill.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/bill_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/bill_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/biz/HouseBizMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bill-biz/src/main/resources/mapper/biz/HouseBizMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/BaseController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/HouseController.java" />
+      <change type="NEW" beforePath="" afterPath="C:/git_repertory/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bill-web/target/classes/com/web/web/WebController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/web/web/WebController.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/WebController.java" afterPath="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/BillController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/dao/biz/PersonBizMapper.class" afterPath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/dao/biz/PersonBizMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/target/classes/com/web/wechat/WeixinController.class" afterPath="$PROJECT_DIR$/bill-web/target/classes/com/web/wechat/WeixinController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/biz/PersonBizMapper.class" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/biz/PersonBizMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/web/wechat/WeixinController.class" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/web/wechat/WeixinController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/bill-web.iml" afterPath="$PROJECT_DIR$/bill-web/bill-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill.iml" afterPath="$PROJECT_DIR$/bill.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/biz/PersonBizMapper.java" afterPath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/biz/PersonBizMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/src/main/resources/mapper/biz/PersonBizMapper.xml" afterPath="$PROJECT_DIR$/bill-biz/src/main/resources/mapper/biz/PersonBizMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/classes/mapper/biz/PersonBizMapper.xml" afterPath="$PROJECT_DIR$/bill-biz/target/classes/mapper/biz/PersonBizMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/java/com/web/wechat/WeixinController.java" afterPath="$PROJECT_DIR$/bill-web/src/main/java/com/web/wechat/WeixinController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/house.jsp" afterPath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/house.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/index.jsp" afterPath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/biz/PersonBizMapper.xml" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/biz/PersonBizMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/view/house.jsp" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/view/house.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/view/index.jsp" afterPath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/view/index.jsp" />
     </list>
     <ignored path="bill.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/bill-biz/target/" />
     <ignored path="$PROJECT_DIR$/bill-web/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,12 +47,122 @@
   <component name="FavoritesManager">
     <favorites_list name="bill" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="HouseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bill-web/src/main/java/com/web/web/HouseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="71" column="26" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonBizMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/biz/PersonBizMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HouseBizMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/biz/HouseBizMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="house.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/house.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.57772624">
+              <caret line="131" column="38" selection-start-line="131" selection-start-column="38" selection-end-line="131" selection-end-column="38" />
+              <folding>
+                <marker date="1476011980957" expanded="true" signature="4447:4464" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HouseBizMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bill-biz/src/main/resources/mapper/biz/HouseBizMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.6060605">
+              <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
+              <folding>
+                <marker date="1476011397414" expanded="true" signature="4348:4453" placeholder="select count... house" />
+                <marker date="1476011397414" expanded="true" signature="4544:4629" placeholder="update house... " />
+                <marker date="1476011397414" expanded="true" signature="4544:4634" placeholder="update house... " />
+                <marker date="1476011397414" expanded="true" signature="4544:4650" placeholder="update house... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonBizMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bill-biz/src/main/resources/mapper/biz/PersonBizMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.536232">
+              <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+              <folding>
+                <marker date="1476011577714" expanded="true" signature="3705:3823" placeholder="select p.nic... person" />
+                <marker date="1476011577714" expanded="true" signature="3915:3971" placeholder="select count... person" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bill-web/src/main/resources/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/WebController.java" />
+        <option value="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/index.jsp" />
+        <option value="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/BillController.java" />
+        <option value="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/BaseController.java" />
+        <option value="$PROJECT_DIR$/bill-web/src/main/java/com/web/wechat/WeixinController.java" />
+        <option value="$PROJECT_DIR$/bill-web/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/biz/HouseBizMapper.java" />
+        <option value="$PROJECT_DIR$/bill-biz/src/main/resources/mapper/biz/HouseBizMapper.xml" />
+        <option value="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/biz/PersonBizMapper.java" />
+        <option value="$PROJECT_DIR$/bill-biz/src/main/resources/mapper/biz/PersonBizMapper.xml" />
+        <option value="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/HouseController.java" />
+        <option value="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/house.jsp" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
@@ -194,7 +197,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -214,6 +217,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,15 +246,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
+              <option name="myItemId" value="bill-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="artifacts" />
+              <option name="myItemId" value="bill-web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bill_web_war_exploded" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -268,31 +312,527 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
+              <option name="myItemId" value="bill-web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="artifacts" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bill_web_war_exploded" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bill-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/git_repertory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37356323" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.biz.dao.biz" />
+      <recent name="com.web.web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\bill\bill-biz\src\main\resources\mapper\biz" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.t7">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -709,6 +1249,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -793,6 +1338,7 @@
       <method>
         <option name="BuildArtifacts" enabled="true">
           <artifact name="bill-web:war exploded" />
+          <artifact name="bill-web:war exploded" />
         </option>
       </method>
     </configuration>
@@ -810,49 +1356,248 @@
       <created>1475990999323</created>
       <option name="number" value="Default" />
       <updated>1475990999323</updated>
-      <workItem from="1475991001681" duration="424000" />
+      <workItem from="1475991001681" duration="1444000" />
+      <workItem from="1475998570658" duration="13449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424000" />
+    <option name="totallyTimeSpent" value="14893000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21302083" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6698925" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21302083" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6698925" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bill-web/src/main/java/test/test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-web/src/main/java/com/web/demo/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-biz/src/main/java/com/biz/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.8/mybatis-3.2.8-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-web/src/main/java/com/web/web/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-web/src/main/java/com/web/web/BillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-biz/src/main/java/com/biz/util/BeanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.969696">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-biz/src/main/java/com/biz/model/auto/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-biz/src/main/java/com/biz/model/auto/HouseExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1586592">
+          <caret line="379" column="9" selection-start-line="379" selection-start-column="9" selection-end-line="379" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-web/src/main/java/com/web/wechat/WeixinController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49944136">
+          <caret line="105" column="55" selection-start-line="105" selection-start-column="55" selection-end-line="105" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-web/src/main/resources/dbconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5944134">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-web/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30500582">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/biz/HouseBizMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/biz/PersonBizMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-biz/src/main/resources/mapper/biz/HouseBizMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6060605">
+          <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
+          <folding>
+            <marker date="1476011397414" expanded="true" signature="4348:4453" placeholder="select count... house" />
+            <marker date="1476011397414" expanded="true" signature="4544:4629" placeholder="update house... " />
+            <marker date="1476011397414" expanded="true" signature="4544:4634" placeholder="update house... " />
+            <marker date="1476011397414" expanded="true" signature="4544:4650" placeholder="update house... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-biz/src/main/resources/mapper/biz/PersonBizMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.536232">
+          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+          <folding>
+            <marker date="1476011577714" expanded="true" signature="3705:3823" placeholder="select p.nic... person" />
+            <marker date="1476011577714" expanded="true" signature="3915:3971" placeholder="select count... person" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-web/src/main/java/com/web/web/HouseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="26" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/house.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57772624">
+          <caret line="131" column="38" selection-start-line="131" selection-start-column="38" selection-end-line="131" selection-end-column="38" />
+          <folding>
+            <marker date="1476011980957" expanded="true" signature="4447:4464" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

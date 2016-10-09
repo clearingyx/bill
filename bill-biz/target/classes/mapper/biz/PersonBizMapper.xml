@@ -78,4 +78,12 @@
     account, name, update_date
   </sql>
 
+  <select id="searchHouseAdminByNickname" parameterType="String" resultMap="BaseResultMap">
+    select p.nickname, p.open_id from person p, house h where h.create_person = p.open_id
+    and p.nickname = #{nickname}
+  </select>
+  <select id="repeatNickname" parameterType="String" resultType="INTEGER">
+    select count(*) from person where nickname = #{nickname}
+  </select>
+
 </mapper>

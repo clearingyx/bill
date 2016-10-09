@@ -30,47 +30,139 @@
 <script type="application/javascript">
     $(function(){
         $("#admin").click(function(){
-            var content = '<ul id="info"><li>必填：<input value="" placeholder="请填写昵称" name="nickname" id="nickname"/></li>'+
+            var content = '<ul><li>必填：<input value="" placeholder="请填写昵称" name="nickname" id="nickname"/></li>'+
                     '<li>选填：<input value="" placeholder="请填写电话" name="phone" id="phone"/></li></ul>';
-            var power = "";
-            if(this.id == "admin") power = "super";
-            else power = "person";
+            var flag = false;
+            //如果已经是承租人，则直接弹窗提醒。
+            $.post("house/personInHouseRepeat.do", {openId: "${openId}"}, function(data){
+                if(data == "repeat"){
+                    layer.open({content: "您已经是承租人或是租了房子了！"});
+                    return ;
+                } else if (data == "success"){
+                    layer.open({
+                        title: "创建承租人",
+                        type: 1,
+                        shade: 'background-color: rgba(0,0,0,.3)', //自定义遮罩的透明度
+                        content: content,
+                        btn: ['提交', '取消'],
+                        yes: function(index){
+                            var nickname = $("#nickname").val();
+                            var phone = $("#phone").val();
 
-            layer.open({
-                type: 1,
-                shade: 'background-color: rgba(0,0,0,.3)', //自定义遮罩的透明度
-                content: content,
-                btn: ['提交', '取消'],
-                yes: function(index){
-                    var nickname = $("#nickname").val();
-                    var phone = $("#phone").val();
-                    if(nickname == "") {
-                        layer.open({content: "您的昵称填错了，不能有空格或是乱码"});
-                        return ;
-                    }
-
-                    $.post("bill/house_add.do",{openId: "${openId}", power: "sup", nickname: nickname, phone: phone},function(data){
-                        if(data == true) {
-                            layer.open({
-                               content: "您现在是承租人了"
-                            });
-                            layer.close(index)
-                        } else {
-                            if(data == "error")
-                                layer.open({content: "您的昵称填错了，不能有空格或是乱码"});
-                            else{
-                                layer.open({
-                                    content: "报错了，重新提交试试？"
-                                });
+                            if(nickname == "") {
+                                layer.open({content: "昵称不能为空，其他人只能通过这个找到您！"});
+                                return ;
                             }
+
+                            $.post("house/house_add.do",{openId: "${openId}", power: "sup", nickname: nickname, phone: phone},function(data){
+                                if(data == true) {
+                                    layer.open({content: "操作成功，你现在是承租人了"});
+                                    layer.close(index)
+                                } else {
+                                    if(data == "error") {
+                                        layer.open({content: "您的昵称填错了，不能有空格或是乱码"});
+                                    }else if(data == "repeat"){
+                                        layer.open({content: "您的昵称重复了"});
+                                    }else{
+                                        layer.open({
+                                            content: "报错了，重新提交试试？"
+                                        });
+                                    }
+                                }
+                            });
+                        },
+                        no: function(index){
+                            layer.close(index)
                         }
-                    });
-                },
-                no: function(index){
-                    layer.close(index)
+                    })
                 }
-            })
+            });
         });
+
+        $("#person").click(function(){
+            var content = '<ul><li>必填：<input value="" placeholder="请填写昵称" name="nickname" id="nickname"/></li>'+
+                    '<li>选填：<input value="" placeholder="请填写电话" name="phone" id="phone"/></li></ul>';
+
+            var flag = false;
+            //如果已经租了房子，则直接弹窗提醒。
+            $.post("house/personInHouseRepeat.do", {openId: "${openId}"}, function(data){
+                if(data == "repeat"){
+                    layer.open({content: "您已经是承租人或是租了房子了！"});
+                    return ;
+                } else if (data == "success"){
+                    layer.open({
+                        title: "搜索承租人",
+                        type: 1,
+                        shadeClose: false,
+                        shade: 'background-color: rgba(0,0,0,.3)', //自定义遮罩的透明度
+                        content: '<ul style="margin-left: -10%"><li><input id="adminname" placeholder="输入承租人昵称"></li></ul>',
+                        btn: ['提交', '取消'],
+                        yes: function (index) {
+                            var nickname = $("#adminname").val();
+
+                            if (nickname == "") {
+                                layer.open({content: "搜索昵称不能为空！"});
+                                return;
+                            }
+
+                            $.post("house/search_admin.do", {nickname: nickname}, function (data) {
+                                if (data == false) {
+                                    layer.open({content: "没有找到该用户！"});
+                                } else if (data == "error") {
+                                    layer.open({
+                                        content: "报错了，重新提交试试？"
+                                    });
+                                } else {
+                                    var title = "承租人：" + data.nickname;
+                                    layer.open({
+                                        shadeClose: false,
+                                        title: title,
+                                        content: content,
+                                        btn: ['提交', '取消'],
+                                        yes: function(index1){
+                                            var nickname = $("#nickname").val();
+                                            var phone = $("#phone").val();
+
+                                            if(nickname == "") {
+                                                layer.open({content: "昵称不能为空，其他人只能通过这个找到您！"});
+                                                return ;
+                                            }
+
+                                            $.post("house/house_add.do",{openId: data.openId,
+                                                        power: "person", nickname: nickname, phone: phone, myOpenId: "${openId}"},
+                                                    function(data){
+                                                        if(data == true) {
+                                                            layer.open({content: "操作成功，你现在是合租人了"});
+                                                            layer.close(index);
+                                                            layer.close(index1);
+                                                        } else {
+                                                            if(data == "error"){
+                                                                layer.open({content: "您的昵称填错了，不能有空格或是乱码"});
+                                                            }else if(data == "repeat"){
+                                                                layer.open({content: "您的昵称重复了"});
+                                                            }else{
+                                                                layer.open({
+                                                                    content: "报错了，重新提交试试？"
+                                                                });
+                                                            }
+                                                        }
+                                                    });
+                                        },
+                                        no: function(index1){
+                                            layer.close(index1);
+                                        }
+                                    });
+
+                                }
+                            });
+                        },
+                        no: function (index) {
+                            layer.close(index)
+                        }
+                    })
+                }
+            });
+        })
     })
 </script>
 </html>
