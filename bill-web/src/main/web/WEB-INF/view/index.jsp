@@ -33,7 +33,16 @@
             layer.open({
                 type: 2
             })
-            location.href = "${host}/bill/sub_bill.do?openId=${openId}";
+            $.post("house/personInHouseRepeat.do",{openId: '${openId}'}, function(data){
+                if(data == "success"){
+                    layer.closeAll();
+                    layer.open({
+                       content: "您还没有一个合租屋，请先绑定你的屋子"
+                    })
+                } else if (data == "repeat"){
+                    location.href = "${host}/bill/sub_bill.do?openId=${openId}";
+                }
+            });
         });
         $("#house").click(function(){
             layer.open({
@@ -41,6 +50,12 @@
             })
             location.href = "${host}/house/house.do?openId=${openId}";
         });
+        $("#my_bill").click(function(){
+            layer.open({
+                type: 2
+            })
+            location.href = "${host}/bill/refundBill.do?openId=${openId}&refundStatus=0";
+        })
     })
 </script>
 </html>

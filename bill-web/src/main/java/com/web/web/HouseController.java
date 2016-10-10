@@ -118,4 +118,22 @@ public class HouseController {
 
         return personBizMapper.searchHouseAdminByNickname(nickname);
     }
+
+    @RequestMapping("unbundling")
+    @ResponseBody
+    public Object unbundling(String openId, String power){
+        int temp = 0;
+        if("admin".equals(power)) {
+            temp = houseBizMapper.delHouseByAdminOpenId(openId);
+        } else if ("person".equals(power)){
+            temp = houseBizMapper.delHouseByPersonOpenId(openId+",");
+        }
+        if(temp < 1){
+            LOG.error("解绑承租人失败！");
+            return "error";
+        } else {
+            return "success";
+        }
+    }
+
 }

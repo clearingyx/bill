@@ -20,11 +20,17 @@
     </style>
 </head>
 <body>
-    <div id="admin" style="width: 100%;height: 4rem;background-color: darkorange;margin-bottom: 1rem">
+    <div id="admin" style="width: 100%;height: 4rem;background-color: darkorange; margin-bottom: 1rem">
         admin
     </div>
-    <div id="person" style="width: 100%;height: 4rem;background-color: khaki">
+    <div id="person" style="width: 100%;height: 4rem;background-color: khaki; margin-bottom: 1rem">
         person
+    </div>
+    <div id="del_admin" style="width: 100%;height: 4rem;background-color: #999999; margin-bottom: 1rem">
+        del_admin
+    </div>
+    <div id="del_person" style="width: 100%;height: 4rem;background-color: lightblue">
+        del_person
     </div>
 </body>
 <script type="application/javascript">
@@ -160,6 +166,54 @@
                             layer.close(index)
                         }
                     })
+                }
+            });
+        })
+
+        $("#del_admin").click(function(){
+            layer.open({
+                content: "确定解绑？解绑会造成该合租房解散",
+                shadeClose: false,
+                btn: ['确定', '取消'],
+                yes: function(index){
+                    $.post("house/unbundling.do",{openId, '${openId}', power: 'admin'},function(data){
+                        if(data == "success"){
+                            layer.open({
+                                content: "解绑成功"
+                            });
+                        } else {
+                            layer.open({
+                                content: "你确定你是承租人？没有找到你的信息"
+                            });
+                        }
+                    });
+                },
+                no: function(){
+                    layer.close(index);
+                }
+            });
+        })
+
+        $("#del_person").click(function(){
+            layer.open({
+                content: "确定解绑？你将会被你的合租屋移除",
+                shadeClose: false,
+                btn: ['确定', '取消'],
+                yes: function(index){
+                    $.post("house/unbundling.do",{openId, '${openId}', power: 'person'},function(data){
+                        if(data == "success"){
+                            layer.open({
+                                content: "解绑成功"
+                            });
+                        } else {
+                            layer.open({
+                                content: "你确定租了房子了？没有找到你的信息"
+                            });
+                        }
+                    });
+                },
+                no: function(){
+                    layer.close(index);
                 }
             });
         })

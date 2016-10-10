@@ -109,4 +109,14 @@
   <update id="addPersonInHouse" parameterType="com.biz.model.auto.House">
     update house set plus_person = concat(plus_person,#{plusPerson},",") where create_person = #{createPerson}
   </update>
+  <select id="houseAllPerson" parameterType="String" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List"/> from house where create_person = #{openId} or plus_person like concat("%",#{openId},"%")
+  </select>
+
+  <delete id="delHouseByAdminOpenId" parameterType="String">
+    delete from house where open_id = #{openId}
+  </delete>
+  <update id="delHouseByPersonOpenId" parameterType="String">
+    UPDATE house SET plus_person = REPLACE ( plus_person, #{openId}, '' ) where plus_person like concat("%",#{openId},"%")
+  </update>
 </mapper>
