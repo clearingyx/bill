@@ -101,8 +101,6 @@ public class BillController {
             } catch (Exception e) {
                 LOG.error("创建订单图片上传失败");
                 e.printStackTrace();
-            }finally {
-                response.sendRedirect("sub_bill.do?msg=success&openId="+openId);
             }
         }
 
@@ -111,17 +109,4 @@ public class BillController {
         //传到重定向的方法openId的参数多了，奇怪，再看看，先用response
 //        return "redirect:sub_bill.do?msg=success&openId=" + bill.getOpenId();
     }
-
-    @RequestMapping("refundBill")
-    public String refundBill(String openId, Integer refundStatus, Model model){
-        RefundExample example = new RefundExample();
-        RefundExample.Criteria criteria = example.createCriteria();
-        criteria.andOpenIdEqualTo(openId);
-        criteria.andRefundStatusEqualTo(refundStatus);
-        List<Refund> list = refundMapper.selectByExample(example);
-        model.addAttribute("list", list);
-        return "refund.jsp";
-    }
-
-
 }

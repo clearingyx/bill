@@ -46,7 +46,7 @@ public class BillService {
             //refund.setType(0); 默认一次性还，否则是1-分次还
             refund.setBillId(bill.getId());
            for (int i = 0; i < openIds.length; i++){
-               if(bill.getOpenId().equals(openIds[i])) {
+               if(!bill.getOpenId().equals(openIds[i])) {
                    refund.setOpenId(openIds[i]);
                    temp = refundMapper.insertSelective(refund);
                    temp++;

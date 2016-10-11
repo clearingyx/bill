@@ -18,12 +18,16 @@
 <body>
     <table width="100%">
         <tr>
-            <td style="width:50%;background-color: #40AFFE; height: 8rem" id="house">one</td>
-            <td style="width:50%;background-color: aquamarine" id="sub_bill">two</td>
+            <td style="width:50%;background-color: #40AFFE; line-height: 10rem" id="house">house</td>
+            <td style="width:50%;background-color: aquamarine" id="sub_bill">sub_bill</td>
         </tr>
         <tr>
-            <td style="width:50%;background-color: darkgoldenrod; height: 8rem" id="my_bill">three</td>
+            <td style="width:50%;background-color: darkgoldenrod; height: 10rem" id="refund_bill">refund_bill</td>
             <td style="width:50%;background-color: indianred" id="info">four</td>
+        </tr>
+        <tr>
+            <td style="width:50%;background-color: blueviolet; height: 10rem" id="my_bill">my_bill</td>
+            <td style="width:50%;background-color: #999999" id="option">option</td>
         </tr>
     </table>
 </body>
@@ -40,7 +44,7 @@
                        content: "您还没有一个合租屋，请先绑定你的屋子"
                     })
                 } else if (data == "repeat"){
-                    location.href = "${host}/bill/sub_bill.do?openId=${openId}";
+                    location.href = "bill/sub_bill.do?openId=${openId}";
                 }
             });
         });
@@ -48,13 +52,13 @@
             layer.open({
                 type: 2
             })
-            location.href = "${host}/house/house.do?openId=${openId}";
+            location.href = "/house/house.do?openId=${openId}";
         });
-        $("#my_bill").click(function(){
+        $("#refund_bill").click(function(){
             layer.open({
                 type: 2
             })
-            location.href = "${host}/bill/refundBill.do?openId=${openId}&refundStatus=0";
+            location.href = "refund/search.do?openId=${openId}&refundStatus=0&type=0";
         })
     })
 </script>

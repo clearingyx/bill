@@ -114,7 +114,7 @@
   </select>
 
   <delete id="delHouseByAdminOpenId" parameterType="String">
-    delete from house where open_id = #{openId}
+    delete from house where create_person = #{openId}
   </delete>
   <update id="delHouseByPersonOpenId" parameterType="String">
     UPDATE house SET plus_person = REPLACE ( plus_person, #{openId}, '' ) where plus_person like concat("%",#{openId},"%")

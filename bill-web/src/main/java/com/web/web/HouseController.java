@@ -68,7 +68,7 @@ public class HouseController {
                 person.getNickname().contains("%") || person.getNickname().contains("&")){
             return "error";
         }
-        if(personBizMapper.repeatNickname(person.getNickname()) > 0){
+        if(personBizMapper.repeatNickname(person) > 0){
             return "repeat";
         }
 

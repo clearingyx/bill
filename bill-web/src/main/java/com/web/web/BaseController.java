@@ -22,7 +22,6 @@ import java.util.ResourceBundle;
 @RequestMapping("base")
 public class BaseController {
     private static final Logger LOG = LoggerFactory.getLogger(BaseController.class);
-    String host = ResourceBundle.getBundle("config").getString("host");
 
     @Autowired
     HouseMapper houseMapper;
@@ -32,7 +31,6 @@ public class BaseController {
     @RequestMapping("index")
     public String index(String openId, Model model){
         model.addAttribute("openId", openId);
-        model.addAttribute("host", host);
         return "index.jsp";
     }
 }

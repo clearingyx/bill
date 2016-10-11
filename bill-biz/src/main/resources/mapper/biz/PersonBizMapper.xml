@@ -82,8 +82,8 @@
     select p.nickname, p.open_id from person p, house h where h.create_person = p.open_id
     and p.nickname = #{nickname}
   </select>
-  <select id="repeatNickname" parameterType="String" resultType="INTEGER">
-    select count(*) from person where nickname = #{nickname}
+  <select id="repeatNickname" parameterType="com.biz.model.auto.Person" resultType="INTEGER">
+    select count(*) from person where nickname = #{nickname} and open_id != #{openId}
   </select>
 
 </mapper>

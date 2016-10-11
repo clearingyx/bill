@@ -11,5 +11,5 @@ public interface PersonBizMapper {
 
     Person searchHouseAdminByNickname(String nickname);
 
-    int repeatNickname(String nickname);
+    int repeatNickname(Person person);
 }

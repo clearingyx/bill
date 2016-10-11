@@ -89,6 +89,9 @@
                 }
                 $("#form").submit();
             })
+            $("#back").click(function(){
+                location.href = "base/index.do?openId=${openId}";
+            });
         })
         function chooseCate(id, name){
             $("h6").html(name);
@@ -164,8 +167,10 @@
                 <div class="form-group">
                     <img id="ImgPr" class="img-thumbnail" src="" style="display: none">
                 </div>
-                <button type="button" class="btn btn-primary btn-lg btn-block" id="sub">submit</button>
+                <button type="button" class="btn btn-primary btn-block" id="sub">submit</button>
             </form>
+            <button type="button" class="btn btn-default btn-block btn-warning" id="back"
+                    style="margin-top: 1rem;margin-bottom: 2rem">返回</button>
         </div>
     </div>
 </div>

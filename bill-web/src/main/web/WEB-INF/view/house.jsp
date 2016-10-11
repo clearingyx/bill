@@ -12,26 +12,54 @@
     <meta name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
     <title>house</title>
-    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-browser.js"></script>
+    <script type="text/javascript" src="js/uploadPreview.min.js"></script>
     <script type="text/javascript" src="plugin/layer_mobile/layer.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style type="text/css">
         ul {width: 80%; margin-left: 2%; line-height: 1rem; margin-bottom: 1rem; list-style:none;}
         ul li input {height: 2rem}
     </style>
 </head>
 <body>
-    <div id="admin" style="width: 100%;height: 4rem;background-color: darkorange; margin-bottom: 1rem">
-        admin
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <div class="alert alert-dismissable alert-success" style="margin-top: 1rem" id="admin">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                <h4>
+                    成为承租人
+                </h4>
+                xxxxxxxxxxxxxxxxxxxxxxxxxx，xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<strong>点击</strong>
+            </div>
+            <div class="alert alert-dismissable alert-info" id="person">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                <h4>
+                    成为合租人
+                </h4>
+                Best check yo self, you're not looking too good. Best check yo self, you're not looking too good. <a class="alert-link">alert link</a>
+            </div>
+            <div class="alert alert-dismissable alert-warning" id="del_admin">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                <h4>
+                    解绑承租人
+                </h4>
+                xxxxxxxxxxxxxx<strong>点击</strong>
+            </div>
+            <div class="alert alert-dismissable alert-danger" id="del_person">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                <h4>
+                    解绑合租人
+                </h4>
+                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<strong>点击</strong>
+            </div>
+            <button type="button" class="btn btn-default btn-block btn-warning" id="back">返回</button>
+        </div>
     </div>
-    <div id="person" style="width: 100%;height: 4rem;background-color: khaki; margin-bottom: 1rem">
-        person
-    </div>
-    <div id="del_admin" style="width: 100%;height: 4rem;background-color: #999999; margin-bottom: 1rem">
-        del_admin
-    </div>
-    <div id="del_person" style="width: 100%;height: 4rem;background-color: lightblue">
-        del_person
-    </div>
+</div>
+
 </body>
 <script type="application/javascript">
     $(function(){
@@ -176,7 +204,7 @@
                 shadeClose: false,
                 btn: ['确定', '取消'],
                 yes: function(index){
-                    $.post("house/unbundling.do",{openId, '${openId}', power: 'admin'},function(data){
+                    $.post("house/unbundling.do",{openId: '${openId}', power: 'admin'},function(data){
                         if(data == "success"){
                             layer.open({
                                 content: "解绑成功"
@@ -188,7 +216,7 @@
                         }
                     });
                 },
-                no: function(){
+                no: function(index){
                     layer.close(index);
                 }
             });
@@ -200,7 +228,7 @@
                 shadeClose: false,
                 btn: ['确定', '取消'],
                 yes: function(index){
-                    $.post("house/unbundling.do",{openId, '${openId}', power: 'person'},function(data){
+                    $.post("house/unbundling.do",{openId: '${openId}', power: 'person'},function(data){
                         if(data == "success"){
                             layer.open({
                                 content: "解绑成功"
@@ -212,11 +240,14 @@
                         }
                     });
                 },
-                no: function(){
+                no: function(index){
                     layer.close(index);
                 }
             });
         })
+        $("#back").click(function(){
+            location.href = "base/index.do?openId=${openId}";
+        });
     })
 </script>
 </html>
