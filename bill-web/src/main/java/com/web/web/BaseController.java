@@ -22,12 +22,17 @@ import java.util.ResourceBundle;
 @RequestMapping("base")
 public class BaseController {
     private static final Logger LOG = LoggerFactory.getLogger(BaseController.class);
-
     @Autowired
     HouseMapper houseMapper;
     @Autowired
     PersonMapper personMapper;
 
+    /**
+     * 跳转到首页
+     * @param openId
+     * @param model
+     * @return
+     */
     @RequestMapping("index")
     public String index(String openId, Model model){
         model.addAttribute("openId", openId);

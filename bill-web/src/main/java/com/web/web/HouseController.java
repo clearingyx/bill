@@ -37,7 +37,7 @@ public class HouseController {
     PersonMapper personMapper;
 
     /**
-     * 登记住房信息，成为承租人，加入合租人等等，暂时不用
+     * 住房相关
      * @param openId
      * @param model
      * @return
@@ -48,6 +48,11 @@ public class HouseController {
         return "house.jsp";
     }
 
+    /**
+     * 判断登记用户是否已经存在，暂时设计的是无论承租还是合租，只能存在一个屋子
+     * @param openId
+     * @return
+     */
     @RequestMapping("personInHouseRepeat")
     @ResponseBody
     public Object personInHouseRepeat(String openId){
@@ -56,6 +61,13 @@ public class HouseController {
         else return "success";
     }
 
+    /**
+     * 添加承租人或合租人
+     * @param person
+     * @param power
+     * @param myOpenId
+     * @return
+     */
     @ResponseBody
     @RequestMapping("house_add")
     public Object house_add(Person person, String power, String myOpenId){
@@ -73,6 +85,7 @@ public class HouseController {
         }
 
         House house = new House();
+        //承租人
         if ("sup".equals(power)) {
             int temp = personMapper.updateByPrimaryKey(person);
             if(temp < 1){
@@ -86,6 +99,7 @@ public class HouseController {
                 return false;
             } else result = true;
         }else{
+            //合租人
             String openId = person.getOpenId();
             person.setOpenId(myOpenId);
             int temp = personMapper.updateByPrimaryKey(person);
@@ -95,6 +109,7 @@ public class HouseController {
             }
             house.setCreatePerson(openId);
             house.setPlusPerson(myOpenId);
+            //添加到房屋合租人数据列
             temp = houseBizMapper.addPersonInHouse(house);
             if(temp < 1){
                 LOG.error("给{}的承租人添加合租人失败！", person.getOpenId());
@@ -104,6 +119,11 @@ public class HouseController {
         return result;
     }
 
+    /**
+     * 查找承租人
+     * @param nickname
+     * @return
+     */
     @RequestMapping("search_admin")
     @ResponseBody
     public Object search_admin(String nickname){
@@ -119,13 +139,21 @@ public class HouseController {
         return personBizMapper.searchHouseAdminByNickname(nickname);
     }
 
+    /**
+     * 解绑
+     * @param openId
+     * @param power
+     * @return
+     */
     @RequestMapping("unbundling")
     @ResponseBody
     public Object unbundling(String openId, String power){
         int temp = 0;
+        //承租解绑，解绑将会是房屋信息失效
         if("admin".equals(power)) {
             temp = houseBizMapper.delHouseByAdminOpenId(openId);
         } else if ("person".equals(power)){
+            //合租解绑
             temp = houseBizMapper.delHouseByPersonOpenId(openId+",");
         }
         if(temp < 1){

@@ -30,12 +30,18 @@ public class BillService {
     RefundMapper refundMapper;
 
     public void insertBill(Bill bill, String plus_person){
+        //分担的用户集合
         String[] openIds = plus_person.split(",");
+        //分账后的价格
         BigDecimal price = new BigDecimal(bill.getAccount()/openIds.length).setScale(1, BigDecimal.ROUND_HALF_UP);
         //分账，默认type是自己记账-0
         bill.setType(1);
         bill.setCount(openIds.length);
         bill.setCreateDate(new Date());
+        //如果分担的用户集合有自己，则bill对象也存入
+        if(plus_person.contains(bill.getOpenId())){
+            bill.setMyAccount(price.doubleValue());
+        }
         int temp = billBizMapper.insertSelective(bill);
         if (temp < 1){
             LOG.error("生成总订单失败");

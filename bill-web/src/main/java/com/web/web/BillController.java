@@ -1,9 +1,6 @@
 package com.web.web;
 
-import com.biz.dao.auto.CateMapper;
-import com.biz.dao.auto.HouseMapper;
-import com.biz.dao.auto.PersonMapper;
-import com.biz.dao.auto.RefundMapper;
+import com.biz.dao.auto.*;
 import com.biz.dao.biz.HouseBizMapper;
 import com.biz.model.auto.*;
 import com.biz.service.BillService;
@@ -47,28 +44,36 @@ public class BillController {
     HouseBizMapper houseBizMapper;
     @Autowired
     RefundMapper refundMapper;
+    @Autowired
+    BillMapper billMapper;
 
     /**
-     * 报账流程
+     * 跳转报账页面
      * @param openId
      * @param model
      * @return
      */
     @RequestMapping("sub_bill")
     public String bill(String openId, String msg, Model model){
+        //返回消费分类
         CateExample example = new CateExample();
         List<Cate> catelist = cateMapper.selectByExample(example);
         model.addAttribute("catelist", catelist);
 
+        //罗列该房屋的所用租户
         House house = houseBizMapper.houseAllPerson(openId);
         List<String> list = new ArrayList<>();
+        //加入承租人，承租人也是会分担费用的
         list.add(house.getCreatePerson());
+        //循环加入合租人
         if(null != house.getPlusPerson() && house.getPlusPerson().contains(",")) {
             String[] persons = house.getPlusPerson().split(",");
             for (int i = 0; i < persons.length; i++){
                 list.add(persons[i]);
             }
         }
+
+        //得到这些用户的信息
         PersonExample exa = new PersonExample();
         PersonExample.Criteria criteria = exa.createCriteria();
         criteria.andOpenIdIn(list);
@@ -76,12 +81,25 @@ public class BillController {
         model.addAttribute("perlist", perlist);
 
         model.addAttribute("openId", openId);
+
+        //提交账单后会重定向到这里携带msg参数，在jsp页面会判断如果存在该值会弹窗
         if(null != msg && !"".equals(msg)){
             model.addAttribute("msg", msg);
         }
+
         return "bill.jsp";
     }
 
+    /**
+     * 提交账单
+     * @param file
+     * @param request
+     * @param bill
+     * @param plus_person
+     * @param model
+     * @param response
+     * @throws IOException
+     */
     @RequestMapping("bill_add")
     public void bill_add(@RequestParam(value = "file", required = false) MultipartFile file,
                            HttpServletRequest request, Bill bill, String plus_person, Model model,
@@ -108,5 +126,27 @@ public class BillController {
         response.sendRedirect("sub_bill.do?msg=success&openId="+openId);
         //传到重定向的方法openId的参数多了，奇怪，再看看，先用response
 //        return "redirect:sub_bill.do?msg=success&openId=" + bill.getOpenId();
+    }
+
+    /**
+     * 订单详情
+     * @param id
+     * @param model
+     * @return
+     */
+    @RequestMapping("bill_info")
+    public String bill_info(Integer id, Model model){
+        Bill bill = billMapper.selectByPrimaryKey(id);
+        model.addAttribute("bill", bill);
+        return "bill_desc.jsp";
+    }
+
+    /**
+     * 跳转订单查询条件界面
+     */
+    @RequestMapping("search_condition")
+    public String search_condition(String openId ,Model model){
+        model.addAttribute("openId", openId);
+        return "bill_search.jsp";
     }
 }

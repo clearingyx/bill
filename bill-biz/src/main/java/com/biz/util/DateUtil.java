@@ -377,4 +377,27 @@ public class DateUtil {
 		}
 		return list;
 	}
+
+	/**
+	 * date 订单创建日期，begin_date查询的开始日期，订单日期超过开始日期，能查出来，返回1
+	 * @param date
+	 * @param begin_date
+     * @return
+     */
+	public static int compare_date(Date date, String begin_date) {
+		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+		try {
+			Date begin = df.parse(begin_date);
+			if (date.getTime() > begin.getTime()) {
+				return 1;
+			} else if (date.getTime() < begin.getTime()) {
+				return -1;
+			} else {
+				return 0;
+			}
+		} catch (Exception exception) {
+			exception.printStackTrace();
+		}
+		return 0;
+	}
 }

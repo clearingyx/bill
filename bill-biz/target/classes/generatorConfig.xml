@@ -51,11 +51,11 @@
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 
-        <!--<table schema="" tableName="bill" domainObjectName="Bill"></table>-->
+        <table schema="" tableName="bill" domainObjectName="Bill"></table>
         <!--<table schema="" tableName="cate" domainObjectName="Cate"></table>-->
         <!--<table schema="" tableName="house" domainObjectName="House"></table>-->
         <!--<table schema="" tableName="person" domainObjectName="Person"></table>-->
-        <table schema="" tableName="refund" domainObjectName="Refund"></table>
+        <!--<table schema="" tableName="refund" domainObjectName="Refund"></table>-->
         <!--<table schema="" tableName="stages" domainObjectName="Stages"></table>-->
     </context>
 </generatorConfiguration>

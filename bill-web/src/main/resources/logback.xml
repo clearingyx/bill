@@ -31,7 +31,7 @@
 
     <!-- 滚动日志 -->
     <appender name="ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>logs/error.log</file>
+        <file>logs/bill_error.log</file>
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%-5level] [%-5class] [%-5M] - [%m] %-5line%n </pattern>
             <charset>GBK</charset>
@@ -57,7 +57,7 @@
     </appender>
 
     <appender name="INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>logs/info.log</file>
+        <file>logs/bill_info.log</file>
 
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%-5level] [%-5class] [%-5M] - [%m]%n </pattern>
@@ -82,7 +82,7 @@
         <!--</rollingPolicy>-->
         <!-- 滚动策略 -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>logs/error.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>logs/bill_info.%d{yyyy-MM-dd}.log</fileNamePattern>
             <!-- 保留30天 -->
             <maxHistory>7</maxHistory>
         </rollingPolicy>
@@ -95,7 +95,7 @@
 
 
     <appender name="DEBUG" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>logs/debug.log</file>
+        <file>logs/bill_debug.log</file>
 
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%-5level] [%-5class] [%-5M] - [%m]%n </pattern>
@@ -110,7 +110,7 @@
 
         <!-- 滚动策略 -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>logs/error.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>logs/bill_debug.%d{yyyy-MM-dd}.log</fileNamePattern>
             <!-- 保留30天 -->
             <maxHistory>7</maxHistory>
         </rollingPolicy>
