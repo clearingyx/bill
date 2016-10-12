@@ -2,194 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b7b3c81-42bf-45cb-b10b-7e017e4d71d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/bill_web_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/exception/MyRuntimeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/service/RefundService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/PersonController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/bill_desc.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/bill_search.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/info.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/not_refund.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/person_info.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/reback.jsp" />
       <change type="NEW" beforePath="" afterPath="C:/git_repertory/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/auto/BillMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/model/auto/Bill.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/model/auto/BillExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bill-biz/src/main/resources/mapper/auto/BillMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/auto/BillMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/auto/CateMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/auto/HouseMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/auto/PersonMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/auto/RefundMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/auto/StagesMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/biz/BillBizMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/biz/HouseBizMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/biz/PersonBizMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/dao/biz/RefundBizMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/Bill.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/BillExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/BillExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/BillExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/BillExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/Cate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/CateExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/CateExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/CateExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/CateExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/House.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/HouseExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/HouseExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/HouseExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/HouseExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/Person.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/PersonExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/PersonExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/PersonExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/PersonExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/Refund.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/RefundExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/RefundExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/RefundExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/RefundExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/Stages.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/StagesExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/StagesExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/StagesExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/auto/StagesExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/model/biz/RefundReq.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/service/BillService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/BeanUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/ConnectUtil$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/ConnectUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/DateUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/JSONUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/MD5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/RequestUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/SHA1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/StringUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/biz/util/UUIDHashCode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/web/demo/TestController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/web/web/BaseController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/web/web/BillController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/web/web/HouseController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/web/web/RefundController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/com/web/wechat/WeixinController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/config/dbconfig.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/config/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/config/spring-core.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/config/spring-database.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/dbconfig.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/generator.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/generatorConfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/auto/BillMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/auto/CateMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/auto/HouseMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/auto/PersonMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/auto/RefundMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/auto/StagesMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/biz/BillBizMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/biz/HouseBizMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/biz/PersonBizMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mapper/biz/RefundBizMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/spring-core.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/spring-database.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/test/test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/test/test1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/classes/wx.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/asm-4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/aspectjweaver-1.6.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/cglib-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/commons-codec-1.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/commons-httpclient-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/commons-lang3-3.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/httpclient-4.5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/httpcore-4.4.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/httpmime-4.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/jcl-over-slf4j-1.7.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/jconsole.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/logback-classic-1.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/logback-core-1.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/logback-ext-spring-0.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/mybatis-3.2.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/slf4j-api-1.7.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-aop-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-beans-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-context-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-context-support-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-core-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-expression-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-jdbc-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-tx-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-web-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/spring-webmvc-4.2.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/lib/tools.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/view/bill.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/view/house.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/view/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/view/refund.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/view/refund_one.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/css/test.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/js/jquery-1.11.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/js/jquery-browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/js/uploadPreview.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/plugin/layer_mobile/layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded/plugin/layer_mobile/need/layer.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/ROOT.jar" afterPath="$PROJECT_DIR$/bill-biz/target/ROOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/dao/biz/RefundBizMapper.class" afterPath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/dao/biz/RefundBizMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/model/auto/Bill.class" afterPath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/model/auto/Bill.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/model/auto/BillExample$Criteria.class" afterPath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/model/auto/BillExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/model/auto/BillExample$Criterion.class" afterPath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/model/auto/BillExample$Criterion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/model/auto/BillExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/model/auto/BillExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/service/BillService.class" afterPath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/service/BillService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/util/DateUtil.class" afterPath="$PROJECT_DIR$/bill-biz/target/classes/com/biz/util/DateUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/target/classes/com/web/web/BaseController.class" afterPath="$PROJECT_DIR$/bill-web/target/classes/com/web/web/BaseController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/target/classes/com/web/web/BillController.class" afterPath="$PROJECT_DIR$/bill-web/target/classes/com/web/web/BillController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/target/classes/com/web/web/HouseController.class" afterPath="$PROJECT_DIR$/bill-web/target/classes/com/web/web/HouseController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/target/classes/com/web/web/RefundController.class" afterPath="$PROJECT_DIR$/bill-web/target/classes/com/web/web/RefundController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/target/classes/com/web/wechat/WeixinController.class" afterPath="$PROJECT_DIR$/bill-web/target/classes/com/web/wechat/WeixinController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/bill_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/bill_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/biz/PersonBizMapper.java" afterPath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/biz/PersonBizMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/biz/RefundBizMapper.java" afterPath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/dao/biz/RefundBizMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/service/BillService.java" afterPath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/service/BillService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/util/DateUtil.java" afterPath="$PROJECT_DIR$/bill-biz/src/main/java/com/biz/util/DateUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/bill-biz/src/main/resources/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/src/main/resources/mapper/biz/BillBizMapper.xml" afterPath="$PROJECT_DIR$/bill-biz/src/main/resources/mapper/biz/BillBizMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/src/main/resources/mapper/biz/RefundBizMapper.xml" afterPath="$PROJECT_DIR$/bill-biz/src/main/resources/mapper/biz/RefundBizMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/bill-biz/target/classes/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/classes/mapper/auto/BillMapper.xml" afterPath="$PROJECT_DIR$/bill-biz/target/classes/mapper/auto/BillMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/classes/mapper/biz/BillBizMapper.xml" afterPath="$PROJECT_DIR$/bill-biz/target/classes/mapper/biz/BillBizMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-biz/target/classes/mapper/biz/RefundBizMapper.xml" afterPath="$PROJECT_DIR$/bill-biz/target/classes/mapper/biz/RefundBizMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/pom.xml" afterPath="$PROJECT_DIR$/bill-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/BaseController.java" afterPath="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/BaseController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/BillController.java" afterPath="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/BillController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/HouseController.java" afterPath="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/HouseController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/RefundController.java" afterPath="$PROJECT_DIR$/bill-web/src/main/java/com/web/web/RefundController.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bill-web/target/ROOT.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bill-web/target/bill.war" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/java/com/web/wechat/WeixinController.java" afterPath="$PROJECT_DIR$/bill-web/src/main/java/com/web/wechat/WeixinController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/bill-web/src/main/resources/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/bill-web/src/main/resources/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/bill.jsp" afterPath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/bill.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/house.jsp" afterPath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/house.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/index.jsp" afterPath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/refund.jsp" afterPath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/refund.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/refund_one.jsp" afterPath="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/refund_one.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/target/classes/config.properties" afterPath="$PROJECT_DIR$/bill-web/target/classes/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/target/classes/logback.xml" afterPath="$PROJECT_DIR$/bill-web/target/classes/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/bill-web/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill.sql" afterPath="$PROJECT_DIR$/bill.sql" />
     </list>
     <ignored path="bill.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -224,11 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeixinController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeixinController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bill-web/src/main/java/com/web/wechat/WeixinController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.84469277">
-              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeixinController.class" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bill-web/target/bill/WEB-INF/classes/com/web/wechat/WeixinController.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33993015">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -339,8 +165,8 @@
         <option value="$PROJECT_DIR$/bill-web/src/main/resources/wx.properties" />
         <option value="$PROJECT_DIR$/bill-web/target/bill/WEB-INF/classes/config.properties" />
         <option value="$PROJECT_DIR$/bill-web/src/main/web/WEB-INF/view/bill_search.jsp" />
-        <option value="$PROJECT_DIR$/bill-web/src/main/java/com/web/wechat/WeixinController.java" />
         <option value="$PROJECT_DIR$/bill-web/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/bill-web/src/main/java/com/web/wechat/WeixinController.java" />
       </list>
     </option>
   </component>
@@ -452,196 +278,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bill-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -673,7 +309,7 @@
       <recent name="C:\IdeaProjects\bill\bill-web\src\main\web\js" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.install">
+  <component name="RunManager" selected="Tomcat Server.t7">
     <configuration default="false" name="BillController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1325,15 +961,15 @@
       <workItem from="1476172388448" duration="12053000" />
       <workItem from="1476184509850" duration="25000" />
       <workItem from="1476233841753" duration="9230000" />
-      <workItem from="1476244734099" duration="22486000" />
+      <workItem from="1476244734099" duration="22793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109189000" />
+    <option name="totallyTimeSpent" value="109496000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1812,14 +1448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bill-web/target/bill/WEB-INF/classes/com/web/wechat/WeixinController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32596043">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bill-web/src/main/java/com/web/web/BillController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1846,8 +1474,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bill-web/src/main/java/com/web/wechat/WeixinController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.84469277">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill-web/target/bill/WEB-INF/classes/com/web/wechat/WeixinController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33993015">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>

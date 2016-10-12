@@ -58,22 +58,22 @@ public class WeixinController extends WeixinControllerSupport {
      * @param request
      * @return
      */
-    @Override
-    @RequestMapping("weixin")
-    public void bindServer(HttpServletRequest request, HttpServletResponse response) {
-        super.bindServer(request, response);
-    }
+//    @Override
+//    @RequestMapping("weixin")
+//    public void bindServer(HttpServletRequest request, HttpServletResponse response) {
+//        super.bindServer(request, response);
+//    }
 
     /**
      * 主方法
      * @param request
      * @return
      */
-//    @RequestMapping("weixin")
-//    public Object weixin(HttpServletRequest request) {
-//        LOG.info("进入weixin方法");
-//        return processRequest(request);
-//    }
+    @RequestMapping("weixin")
+    public Object weixin(HttpServletRequest request) {
+        LOG.info("进入weixin方法");
+        return processRequest(request);
+    }
 
     /**
      * 重写父类方法，返回访问链接
