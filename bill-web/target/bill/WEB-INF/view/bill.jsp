@@ -152,11 +152,11 @@
                 </table>
 
                 <div class="form-group" id="account_div">
-                    <label for="account">one</label>
+                    <label for="account">价格</label>
                     <input class="form-control" id="account" type="text" name="account" placeholder="请输入正确的价格，并且大于￥5"/>
                 </div>
                 <div class="form-group" id="remark_div">
-                    <label for="remark">two</label>
+                    <label for="remark">备注</label>
                     <input class="form-control" id="remark" type="text" name="remark" placeholder="备注不超过255个字符"/>
                 </div>
                 <div class="form-group">
@@ -166,9 +166,9 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <img id="ImgPr" class="img-thumbnail" src="" style="display: none">
+                    <img id="ImgPr" class="img-thumbnail" style="display: none">
                 </div>
-                <button type="button" class="btn btn-primary btn-block" id="sub">submit</button>
+                <button type="button" class="btn btn-primary btn-block" id="sub">提交</button>
             </form>
             <button type="button" class="btn btn-default btn-block btn-warning" id="back"
                     style="margin-top: 1rem;margin-bottom: 2rem">返回</button>

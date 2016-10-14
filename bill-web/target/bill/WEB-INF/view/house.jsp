@@ -32,28 +32,28 @@
                 <h4>
                     成为承租人
                 </h4>
-                xxxxxxxxxxxxxxxxxxxxxxxxxx，xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<strong>点击</strong>
+                点击成为承租人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>点击</strong>
             </div>
             <div class="alert alert-dismissable alert-info" id="person">
 
                 <h4>
                     成为合租人
                 </h4>
-                Best check yo self, you're not looking too good. Best check yo self, you're not looking too good. <a class="alert-link">alert link</a>
+                寻找承租人，成为合租人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>点击</strong>
             </div>
             <div class="alert alert-dismissable alert-warning" id="del_admin">
 
                 <h4>
                     解绑承租人
                 </h4>
-                xxxxxxxxxxxxxx<strong>点击</strong>
+                解绑承租人，解散合租屋&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>点击</strong>
             </div>
             <div class="alert alert-dismissable alert-danger" id="del_person">
 
                 <h4>
                     解绑合租人
                 </h4>
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<strong>点击</strong>
+                解绑合租人，离开本合租屋&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>点击</strong>
             </div>
             <button type="button" class="btn btn-default btn-block btn-warning" id="back">返回</button>
         </div>

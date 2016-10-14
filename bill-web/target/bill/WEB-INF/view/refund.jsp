@@ -202,8 +202,8 @@
                 <thead>
                 <tr>
                     <th>选择</th>
-                    <th>p</th>
-                    <th>admin</th>
+                    <th>金额</th>
+                    <th>提账人</th>
                     <th>操作</th>
                 </tr>
                 </thead>
@@ -224,7 +224,7 @@
                             </td>
                             <td style="line-height:4rem">
                                 <button type="button" class="btn btn-sm btn-success"
-                                        onclick="refundone('${list.id}')">refund</button>
+                                        onclick="refundone('${list.id}')">查看</button>
                             </td>
                         </tr>
                     </c:forEach>

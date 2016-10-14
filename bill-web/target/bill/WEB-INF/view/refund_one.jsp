@@ -78,7 +78,7 @@
                                     订单发起人：${refund.nickname}
                                 </h4>
                                 <p>
-                                    订单备注：${refund.remark}
+                                    订单备注：${refund.adminRemark}
                                 </p>
                                 <p>
                                     <form role="form" action="refund/refund_one.do" method="post" id="form" enctype="multipart/form-data">
@@ -90,7 +90,7 @@
                                         <input value="${old_refund.id}" name="id" hidden="hidden">
 
                                         <div class="form-group" id="remark_div">
-                                            <label for="remark">two</label>
+                                            <label for="remark">备注</label>
                                             <input class="form-control" id="remark" type="text" name="remark" placeholder="备注不超过255个字符"/>
                                         </div>
                                         <div class="form-group">

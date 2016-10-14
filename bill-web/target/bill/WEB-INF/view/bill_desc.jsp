@@ -40,7 +40,7 @@
                                     订单总金额：${bill.account}
                                 </h4>
                                 <p>
-                                    订单备注：${refund.remark}
+                                    订单备注：${bill.remark}
                                 </p>
                                 <p>
                                     订单时间：<fmt:formatDate value="${bill.createDate}" type="both"/>

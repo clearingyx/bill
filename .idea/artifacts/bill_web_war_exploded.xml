@@ -1,15 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="bill-web:war exploded">
-    <output-path>$PROJECT_DIR$/bill-web/target/bill</output-path>
+    <output-path>$PROJECT_DIR$/classes/artifacts/bill_web_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="bill-web" />
+          <element id="module-output" name="bill-biz" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="bill-biz-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="bill-biz" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.5.RELEASE" />
@@ -30,7 +28,6 @@
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.10" />
           <element id="library" level="project" name="Maven: cglib:cglib:3.1" />
           <element id="library" level="project" name="Maven: org.ow2.asm:asm:4.2" />
-          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.0.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
@@ -48,10 +45,11 @@
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.12" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.7" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.18" />
+          <element id="library" level="module" name="Maven: com.alibaba:jconsole:1.8.0" module-name="bill-web" />
+          <element id="library" level="module" name="Maven: com.alibaba:tools:1.8.0" module-name="bill-web" />
+          <element id="library" level="module" name="Maven: com.alibaba:jconsole:1.8.0" module-name="bill-biz" />
+          <element id="library" level="module" name="Maven: com.alibaba:tools:1.8.0" module-name="bill-biz" />
         </element>
-      </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/bill-web/target/bill/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="bill-web/web/Web" />
     </root>

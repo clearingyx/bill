@@ -133,6 +133,9 @@
       <if test="count != null" >
         count,
       </if>
+      <if test="myAccount != null" >
+        my_account,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -167,6 +170,9 @@
       </if>
       <if test="count != null" >
         #{count,jdbcType=INTEGER},
+      </if>
+      <if test="myAccount != null" >
+        #{myAccount,jdbcType=DOUBLE},
       </if>
     </trim>
   </insert>

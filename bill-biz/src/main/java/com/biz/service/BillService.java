@@ -41,6 +41,10 @@ public class BillService {
         //如果分担的用户集合有自己，则bill对象也存入
         if(plus_person.contains(bill.getOpenId())){
             bill.setMyAccount(price.doubleValue());
+            if (openIds.length == 1){
+                //说明是个人记账，状态变为1（type暂时没用了，不想写新页面了）
+                bill.setUseStatus(1);
+            }
         }
         int temp = billBizMapper.insertSelective(bill);
         if (temp < 1){

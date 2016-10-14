@@ -18,20 +18,20 @@
 <body>
     <table width="100%">
         <tr>
-            <td style="width:50%;background-color: #40AFFE; line-height: 8rem" id="house">house</td>
-            <td style="width:50%;background-color: aquamarine" id="sub_bill">sub_bill</td>
+            <td style="width:50%;background-color: #40AFFE; line-height: 8rem" id="house">房屋操作</td>
+            <td style="width:50%;background-color: aquamarine" id="sub_bill">提交订单</td>
         </tr>
         <tr>
-            <td style="width:50%;background-color: darkgoldenrod; height: 8rem" id="refund_bill">refund_bill</td>
-            <td style="width:50%;background-color: indianred" id="my_bill">my_bill</td>
+            <td style="width:50%;background-color: darkgoldenrod; height: 8rem" id="refund_bill">自己还款</td>
+            <td style="width:50%;background-color: indianred" id="my_bill">确认还款</td>
         </tr>
         <tr>
-            <td style="width:50%;background-color: honeydew; height: 8rem" id="history">history_bill_search</td>
-            <td style="width:50%;background-color: blueviolet" id="not_bill">other_not_refund_search</td>
+            <td style="width:50%;background-color: honeydew; height: 8rem" id="history">历史订单</td>
+            <td style="width:50%;background-color: blueviolet" id="not_bill">谁未还款</td>
         </tr>
         <tr>
-            <td style="width:50%;background-color: limegreen; height: 8rem" id="info">info</td>
-            <td style="width:50%;background-color: #999999" id="option">option</td>
+            <td style="width:50%;background-color: limegreen; height: 8rem" id="info">统计信息</td>
+            <td style="width:50%;background-color: #999999" id="option">配置</td>
         </tr>
     </table>
 </body>

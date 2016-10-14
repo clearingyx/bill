@@ -49,8 +49,8 @@ public class WeixinController extends WeixinControllerSupport {
     //不再强制重写，有加密需要时自行重写该方法
     @Override
     protected String getAESKey() {
-        return this.aes_key;
-//        return null;
+//        return this.aes_key;
+        return null;
     }
 
     /**
